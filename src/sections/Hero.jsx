@@ -41,7 +41,7 @@ const Hero = ({ onGetQuoteClick }) => {
             <div className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-slate-50 dark:bg-slate-900 border border-slate-200/60 dark:border-slate-800/80 shadow-sm">
               <span className="flex h-2 w-2 rounded-full bg-brand-gold animate-pulse"></span>
               <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
-                AMFI Registered & LIC Certified Wealth Advisor
+                IRDAI certified licensed Advisor
               </span>
             </div>
 
