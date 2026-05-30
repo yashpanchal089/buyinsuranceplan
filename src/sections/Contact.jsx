@@ -101,8 +101,8 @@ const Contact = ({ prefilledService }) => {
                   <Phone className="h-5.5 w-5.5 text-brand-gold shrink-0 mt-0.5" />
                   <div>
                     <span className="font-extrabold text-slate-700 dark:text-slate-200 block mb-0.5">Contact Number</span>
-                    <a href="tel:8108801290" className="text-brand-blue dark:text-white font-extrabold hover:text-brand-gold transition-colors duration-150">
-                      +91 8108801290
+                    <a href="tel:9152131255" className="text-brand-blue dark:text-white font-extrabold hover:text-brand-gold transition-colors duration-150">
+                      +91 9152131255
                     </a>
                   </div>
                 </li>
@@ -292,7 +292,7 @@ const Contact = ({ prefilledService }) => {
       {/* Floating Actions on Bottom Corners */}
       {/* Left Bottom: Floating Call Widget */}
       <a 
-        href="tel:8108801290"
+        href="tel:9152131255"
         aria-label="Direct Telephone Call मनीष पंचाल"
         className="fixed bottom-6 left-6 h-13 w-13 rounded-full bg-brand-blue text-white dark:bg-brand-blue dark:text-white flex items-center justify-center shadow-2xl border border-white/20 hover:scale-108 transition-all duration-300 z-40 animate-pulse-subtle"
       >

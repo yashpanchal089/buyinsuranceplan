@@ -144,14 +144,14 @@ const Footer = ({ onCalculatorSelect }) => {
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-brand-gold shrink-0" />
-                <a href="tel:8108801290" className="text-slate-200 font-bold hover:text-brand-gold transition-colors duration-150">
-                  +91 8108801290
+                <a href="tel:9152131255" className="text-slate-200 font-bold hover:text-brand-gold transition-colors duration-150">
+                  +91 9152131255
                 </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-brand-gold shrink-0" />
-                <a href="mailto:panchal.manish@gmail.com" className="text-slate-200 font-semibold hover:text-brand-gold transition-colors duration-150">
-                  panchal.manish@gmail.com
+                <a href="mailto:securelife128@gmail.com" className="text-slate-200 font-semibold hover:text-brand-gold transition-colors duration-150">
+                  securelife128@gmail.com
                 </a>
               </li>
             </ul>
