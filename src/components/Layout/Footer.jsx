@@ -95,7 +95,7 @@ const Footer = ({ onCalculatorSelect }) => {
                 <button onClick={() => handleScrollTo('#services')} className="hover:text-brand-gold transition-colors duration-150">Insurance & Financial Offerings</button>
               </li>
               <li>
-                <button onClick={() => handleScrollTo('#awards')} className="hover:text-brand-gold transition-colors duration-150">Trophies & Certifications</button>
+                <button onClick={() => handleScrollTo('#awards')} className="hover:text-brand-gold transition-colors duration-150">Awards & Rewards</button>
               </li>
               <li>
                 <button onClick={() => handleScrollTo('#contact')} className="hover:text-brand-gold transition-colors duration-150">Schedule Consultation</button>
