@@ -78,8 +78,8 @@ const Contact = ({ prefilledService }) => {
                   <MapPin className="h-5.5 w-5.5 text-brand-gold shrink-0 mt-0.5" />
                   <div>
                     <span className="font-extrabold text-slate-700 dark:text-slate-200 block mb-0.5">Office Address</span>
-                    <span className="text-slate-500 dark:text-slate-400">
-                      Shop No. 5, Panchal Chambers, Mulund West Station Road, Mulund, Mumbai, Maharashtra - 400080
+                    <span className="text-slate-500 dark:text-slate-400 font-extrabold">
+                      Thane & Mumbai / Navi Mumbai
                     </span>
                   </div>
                 </li>
@@ -89,10 +89,7 @@ const Contact = ({ prefilledService }) => {
                   <div>
                     <span className="font-extrabold text-slate-700 dark:text-slate-200 block mb-0.5">Service Scope Area</span>
                     <span className="text-brand-blue dark:text-brand-gold font-extrabold text-xs">
-                      📍 Delivering Doorstep Advisory All Over Mumbai, Thane, and Navi Mumbai!
-                    </span>
-                    <span className="text-slate-500 dark:text-slate-400 block text-[11px] mt-1 font-semibold leading-normal">
-                      (Personal home/office visits & secure virtual planning sessions are fully available)
+                      📍 Available on visits as per prior appointment and calls
                     </span>
                   </div>
                 </li>
@@ -100,10 +97,15 @@ const Contact = ({ prefilledService }) => {
                 <li className="flex items-start space-x-3.5 border-t border-slate-200/50 dark:border-slate-800/80 pt-3.5">
                   <Phone className="h-5.5 w-5.5 text-brand-gold shrink-0 mt-0.5" />
                   <div>
-                    <span className="font-extrabold text-slate-700 dark:text-slate-200 block mb-0.5">Contact Number</span>
-                    <a href="tel:9152131255" className="text-brand-blue dark:text-white font-extrabold hover:text-brand-gold transition-colors duration-150">
-                      +91 9152131255
-                    </a>
+                    <span className="font-extrabold text-slate-700 dark:text-slate-200 block mb-0.5">Contact Details</span>
+                    <div className="flex flex-col space-y-1 text-sm font-semibold">
+                      <a href="tel:9152131255" className="text-brand-blue dark:text-white hover:text-brand-gold transition-colors duration-150 flex items-center">
+                        <span>📞 Call: +91 9152131255</span>
+                      </a>
+                      <a href="https://wa.me/918108801290" target="_blank" rel="noopener noreferrer" className="text-brand-blue dark:text-white hover:text-brand-gold transition-colors duration-150 flex items-center">
+                        <span>💬 WhatsApp: +91 8108801290</span>
+                      </a>
+                    </div>
                   </div>
                 </li>
 
