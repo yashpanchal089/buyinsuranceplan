@@ -21,7 +21,7 @@ const Hero = ({ onGetQuoteClick }) => {
 
   const stats = [
     { label: 'Happy Families', target: '800+', suffix: '+', icon: Shield },
-    { label: 'Claims Settled', target: '100', suffix: '%', icon: Sparkles },
+    { label: 'Claims Settled', target: '150', suffix: '+', icon: Sparkles },
     { label: 'Investments Managed', target: '50', suffix: 'Cr+', icon: TrendingUp },
     { label: 'Years of Experience', target: '13', suffix: '+', icon: Clock },
   ];
