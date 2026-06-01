@@ -122,7 +122,7 @@ const Awards = () => {
             Awards, Certifications & Recognition Trophies 🏆
           </h2>
           <p className="text-xs sm:text-sm font-medium text-slate-500 dark:text-slate-400 max-w-xl mx-auto leading-relaxed">
-            A showcase of Manish R. Panchal's certified expertise, quarterly service achievements, and prestigious corporate recognitions spanning a 15+ year advisory legacy.
+            A showcase of Manish R. Panchal's certified expertise, quarterly service achievements, and prestigious corporate recognitions spanning a 13+ year advisory legacy.
           </p>
           <div className="h-1.5 w-16 bg-brand-gold mx-auto rounded-full mt-4"></div>
         </div>

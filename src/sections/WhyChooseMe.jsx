@@ -5,7 +5,7 @@ const WhyChooseMe = () => {
   const points = [
     {
       title: 'Trusted Financial Advisor',
-      desc: 'Over 15+ years of verified industry expertise crafting custom asset creation strategies with full regulatory approvals.',
+      desc: 'Over 13+ years of verified industry expertise crafting custom asset creation strategies with full regulatory approvals.',
       icon: UserCheck,
     },
     {

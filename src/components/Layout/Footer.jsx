@@ -50,7 +50,7 @@ const Footer = ({ onCalculatorSelect }) => {
               </div>
             </div>
             <p className="text-sm text-slate-400 font-medium leading-relaxed">
-              Your premium gateway to secured wealth creation, comprehensive health shielding, and customized loan solutions. Manish R. Panchal has been crafting secure financial legacies for over 15+ years.
+              Your premium gateway to secured wealth creation, comprehensive health shielding, and customized loan solutions. Manish R. Panchal has been crafting secure financial legacies for over 13+ years.
             </p>
             <div className="flex space-x-4 pt-2">
               <a href="#" className="h-9 w-9 rounded-full bg-slate-900 border border-slate-800 hover:border-brand-gold hover:text-brand-gold flex items-center justify-center transition-colors duration-200" aria-label="Facebook">
