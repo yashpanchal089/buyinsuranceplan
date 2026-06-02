@@ -42,7 +42,7 @@ const Footer = ({ onCalculatorSelect }) => {
               />
               <div className="flex flex-col">
                 <span className="text-xl font-extrabold tracking-tight font-display text-white">
-                  buy<span className="text-brand-gold">insurance</span>plan
+                  loansure<span className="text-brand-gold">care</span>
                 </span>
                 <span className="text-[8px] uppercase tracking-widest text-brand-gold font-bold">
                   Insurance | Protection | Loans | Security
@@ -186,7 +186,7 @@ const Footer = ({ onCalculatorSelect }) => {
 
         {/* Bottom Bar */}
         <div className="mt-6 pt-4 border-t border-slate-900/40 flex flex-col sm:flex-row justify-between items-center text-xs font-bold text-slate-500">
-          <p>© {currentYear} buyinsuranceplan. All Rights Reserved.</p>
+          <p>© {currentYear} loansurecare. All Rights Reserved.</p>
           <p className="mt-2 sm:mt-0 flex items-center space-x-1">
             <span>Insurance | Protection | Loans | Security</span>
           </p>
