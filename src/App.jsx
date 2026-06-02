@@ -80,6 +80,7 @@ function App() {
 
   const handleCalculatorSelect = (index) => {
     setSelectedCalc(index);
+    window.open('https://knowyouremi.in/', '_blank');
   };
 
   const handleServiceQuoteClick = (serviceTitle) => {
