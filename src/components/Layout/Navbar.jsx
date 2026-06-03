@@ -151,7 +151,7 @@ const Navbar = ({ darkMode, toggleDarkMode, activeSection, onCalculatorSelect, o
                     </button>
                     
                     {/* Dropdown Menu */}
-                    <div className={`absolute mt-2 w-80 rounded-2xl border border-slate-100 dark:border-slate-900/80 bg-white dark:bg-slate-950 p-2 shadow-2xl transition-all duration-300 transform border-t-4 border-t-brand-gold ${
+                    <div className={`absolute mt-2 w-80 rounded-2xl border border-slate-100 dark:border-slate-900/80 bg-white dark:bg-slate-950 p-2 shadow-2xl transition-all duration-300 transform border-t-4 border-t-brand-gold before:block before:content-[''] before:absolute before:-top-3 before:left-0 before:right-0 before:h-3 ${
                       isCalculators ? 'right-0 origin-top-right' : 'left-0 origin-top-left'
                     } ${
                       isDropdownActive 
