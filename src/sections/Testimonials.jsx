@@ -12,7 +12,7 @@ const Testimonials = () => {
     {
       name: 'Manish Makwana',
       role: 'Senior Software Engineer, Powai',
-      text: 'I started a monthly mutual fund SIP via buyinsuranceplan 8 years ago. His customized advice on portfolio rebalancing has yielded over 16.5% CAGR compounding, helping me easily secure my new apartment downpayment!',
+      text: 'I started a monthly mutual fund SIP via Loansurecare 8 years ago. His customized advice on portfolio rebalancing has yielded over 16.5% CAGR compounding, helping me easily secure my new apartment downpayment!',
       rating: 5
     },
     {
