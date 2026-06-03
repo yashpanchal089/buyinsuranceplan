@@ -80,7 +80,12 @@ function App() {
 
   const handleCalculatorSelect = (index) => {
     setSelectedCalc(index);
-    const url = (index === 0 || index === 1) ? 'https://sipcalculator.in/' : 'https://knowyouremi.in/';
+    let url = 'https://knowyouremi.in/';
+    if (index === 0 || index === 1) {
+      url = 'https://sipcalculator.in/';
+    } else if (index === 3) {
+      url = 'https://ebiz.licindia.in/D2CPM/?&_ga=2.157973370.1391002638.1780480341-1783706934.1779374049#qni/basicinfo';
+    }
     window.open(url, '_blank');
   };
 

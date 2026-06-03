@@ -15,7 +15,12 @@ const CalculatorSection = ({ selectedCalculator, onCalculatorChange }) => {
     if (onCalculatorChange) {
       onCalculatorChange(idx);
     }
-    const url = (idx === 0 || idx === 1) ? 'https://sipcalculator.in/' : 'https://knowyouremi.in/';
+    let url = 'https://knowyouremi.in/';
+    if (idx === 0 || idx === 1) {
+      url = 'https://sipcalculator.in/';
+    } else if (idx === 3) {
+      url = 'https://ebiz.licindia.in/D2CPM/?&_ga=2.157973370.1391002638.1780480341-1783706934.1779374049#qni/basicinfo';
+    }
     window.open(url, '_blank');
   };
 

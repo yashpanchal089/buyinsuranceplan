@@ -99,7 +99,7 @@ const Hero = ({ onGetQuoteClick }) => {
               <div className="absolute bottom-4 left-4 right-4 p-3 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md rounded-xl shadow-md border border-slate-100/40 dark:border-slate-800/40 flex items-center justify-between">
                 <div className="flex flex-col">
                   <span className="text-xs font-extrabold text-brand-blue dark:text-white">Manish R. Panchal</span>
-                  <span className="text-[9px] font-bold text-slate-400 dark:text-slate-400">Mulund, Mumbai</span>
+                  <span className="text-[9px] font-bold text-slate-400 dark:text-slate-400">Mumbai</span>
                 </div>
                 <div className="px-2.5 py-1 text-[8px] font-extrabold uppercase bg-brand-gold text-slate-950 rounded-full">
                   Founder
