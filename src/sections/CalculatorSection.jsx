@@ -20,6 +20,8 @@ const CalculatorSection = ({ selectedCalculator, onCalculatorChange }) => {
       url = 'https://sipcalculator.in/';
     } else if (idx === 3) {
       url = 'https://ebiz.licindia.in/D2CPM/?&_ga=2.157973370.1391002638.1780480341-1783706934.1779374049#qni/basicinfo';
+    } else if (idx === 5) {
+      url = 'https://ebiz.licindia.in/D2CPM/?&_ga=2.157973370.1391002638.1780480341-1783706934.1779374049#qni/ba';
     }
     window.open(url, '_blank');
   };
