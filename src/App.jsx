@@ -80,7 +80,8 @@ function App() {
 
   const handleCalculatorSelect = (index) => {
     setSelectedCalc(index);
-    window.open('https://knowyouremi.in/', '_blank');
+    const url = (index === 0 || index === 1) ? 'https://sipcalculator.in/' : 'https://knowyouremi.in/';
+    window.open(url, '_blank');
   };
 
   const handleServiceQuoteClick = (serviceTitle) => {

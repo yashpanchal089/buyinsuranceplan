@@ -15,7 +15,8 @@ const CalculatorSection = ({ selectedCalculator, onCalculatorChange }) => {
     if (onCalculatorChange) {
       onCalculatorChange(idx);
     }
-    window.open('https://knowyouremi.in/', '_blank');
+    const url = (idx === 0 || idx === 1) ? 'https://sipcalculator.in/' : 'https://knowyouremi.in/';
+    window.open(url, '_blank');
   };
 
   return (
