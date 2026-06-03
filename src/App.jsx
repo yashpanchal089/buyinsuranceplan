@@ -100,14 +100,42 @@ function App() {
     }
   };
 
-  const handleModalSubmit = (e) => {
+  const handleModalSubmit = async (e) => {
     e.preventDefault();
     setModalLoading(true);
-    setTimeout(() => {
-      setModalLoading(false);
-      setModalSubmitted(true);
-      setModalFormData({ name: '', phone: '', email: '', message: '' });
-    }, 1500);
+
+    try {
+      const formDataObj = new FormData();
+
+      formDataObj.append("access_key", "c83a2048-6cd5-433a-ac89-0a9cd6f531c7");
+      formDataObj.append("subject", "New Financial Review Request - Loansurecare");
+
+      formDataObj.append("name", modalFormData.name);
+      formDataObj.append("phone", modalFormData.phone);
+      formDataObj.append("email", modalFormData.email);
+      formDataObj.append("message", modalFormData.message);
+
+      const response = await fetch(
+        "https://api.web3forms.com/submit",
+        {
+          method: "POST",
+          body: formDataObj,
+        }
+      );
+
+      const result = await response.json();
+
+      if (result.success) {
+        setModalSubmitted(true);
+        setModalFormData({ name: '', phone: '', email: '', message: '' });
+      } else {
+        alert("Failed to send message.");
+      }
+    } catch (error) {
+      alert("Something went wrong. Please try again.");
+    }
+
+    setModalLoading(false);
   };
 
   return (
