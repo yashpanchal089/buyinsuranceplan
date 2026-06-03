@@ -44,7 +44,7 @@ const Contact = ({ prefilledService }) => {
 
   // WhatsApp quick trigger
   const handleWhatsAppChat = () => {
-    const text = encodeURIComponent("Hello Mr. Manish, I visited loansurecare and would like to schedule a free financial/insurance consultation. Please assist.");
+    const text = encodeURIComponent("Hello Mr. Manish, I visited Loansurecare and would like to schedule a free financial/insurance consultation. Please assist.");
     window.open(`https://wa.me/918108801290?text=${text}`, '_blank');
   };
 

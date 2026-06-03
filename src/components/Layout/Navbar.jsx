@@ -117,7 +117,7 @@ const Navbar = ({ darkMode, toggleDarkMode, activeSection, onCalculatorSelect, o
             />
             <div className="flex flex-col shrink-0">
               <span className="text-base lg:text-[14.5px] xl:text-[19px] font-black tracking-tight font-display text-brand-blue dark:text-white flex items-center">
-                loansure<span className="text-brand-gold">care</span>
+                Loansure<span className="text-brand-gold">care</span>
               </span>
               <span className="text-[7.5px] lg:text-[7px] xl:text-[8px] uppercase tracking-wider text-slate-500 dark:text-slate-400 font-extrabold">
                 Insurance | Protection | Loans | Security
