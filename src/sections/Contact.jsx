@@ -24,22 +24,50 @@ const Contact = ({ prefilledService }) => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    
-    // Simulate API lead processing
-    setTimeout(() => {
-      setLoading(false);
-      setSubmitted(true);
-      setFormData({
-        name: '',
-        phone: '',
-        email: '',
-        service: 'General Inquiry',
-        message: ''
-      });
-    }, 1500);
+
+    try {
+      const formDataObj = new FormData();
+
+      formDataObj.append("access_key", "c83a2048-6cd5-433a-ac89-0a9cd6f531c7");
+      formDataObj.append("subject", "New Contact Form Lead - Loansurecare");
+
+      formDataObj.append("name", formData.name);
+      formDataObj.append("phone", formData.phone);
+      formDataObj.append("email", formData.email);
+      formDataObj.append("service", formData.service);
+      formDataObj.append("message", formData.message);
+
+      const response = await fetch(
+        "https://api.web3forms.com/submit",
+        {
+          method: "POST",
+          body: formDataObj,
+        }
+      );
+
+      const result = await response.json();
+
+      if (result.success) {
+        setSubmitted(true);
+
+        setFormData({
+          name: "",
+          phone: "",
+          email: "",
+          service: "General Inquiry",
+          message: "",
+        });
+      } else {
+        alert("Failed to send message.");
+      }
+    } catch (error) {
+      alert("Something went wrong. Please try again.");
+    }
+
+    setLoading(false);
   };
 
   // WhatsApp quick trigger
